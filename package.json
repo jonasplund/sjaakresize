@@ -1,0 +1,22 @@
+{
+  "name"          : "sjaakresize",
+  "version"       : "0.1.0",
+  "description"   : "Bulk image resizer for node.js",
+  "keywords"      : ["image", "resize"],
+  "author"        : {
+    "name": "Jon Asplund",
+    "email": "jon.asplund@gmail.com"
+  },
+  "contributors"  : [],
+  "licenses"      : ["MIT"],
+  "dependencies"  : {
+    "imagemagick": "0.1.x"
+  },
+  "lib"           : "lib",
+  "engines"       : { "node": ">= 0.8" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjaak666/imgresize.git"
+  },
+  "main"          : "./index.js"
+}
